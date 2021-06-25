@@ -23,7 +23,7 @@ import helpers
 from acme.tf import networks
 
 flags.DEFINE_string('level', 'PongNoFrameskip-v4', 'Which Atari level to play.')
-flags.DEFINE_integer('num_episodes', 1000, 'Number of episodes to train for.')
+flags.DEFINE_integer('num_episodes', 10, 'Number of episodes to train for.')
 
 FLAGS = flags.FLAGS
 
