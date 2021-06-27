@@ -37,31 +37,3 @@ def make_environment(evaluation: bool = False,
       ),
       wrappers.SinglePrecisionWrapper,
   ])
-
-# Create a simple helper function to render a frame from the current state of
-# the environment.
-environment_library = 'gym'
-if environment_library == 'dm_control':
-  def render(env):
-    return env.physics.render(camera_id=0)
-elif environment_library == 'gym':
-  def render(env):
-    return env.environment.render(mode='rgb_array')
-else:
-  raise ValueError("choose among ['dm_control', 'gym'].")
-
-def display_video(frames, filename='temp.mp4'):
-  """Save and display video."""
-
-  # Write video
-  with imageio.get_writer(filename, fps=60) as video:
-    for frame in frames:
-      video.append_data(frame)
-
-  # Read video and display the video
-  video = open(filename, 'rb').read()
-  b64_video = base64.b64encode(video)
-  video_tag = ('<video  width="320" height="240" controls alt="test" '
-               'src="data:video/mp4;base64,{0}">').format(b64_video.decode())
-
-  return IPython.display.HTML(video_tag)

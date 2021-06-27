@@ -28,16 +28,18 @@ flags.DEFINE_integer('num_episodes', 10, 'Number of episodes to train for.')
 FLAGS = flags.FLAGS
 
 
-def main(_):
-  env = helpers.make_environment(FLAGS.level)
+def main():
+  # env = helpers.make_environment(FLAGS.level)
+  env = helpers.make_environment('PongNoFrameskip-v4')
   env_spec = acme.make_environment_spec(env)
   network = networks.DQNAtariNetwork(env_spec.actions.num_values)
 
   agent = dqn.DQN(env_spec, network)
 
   loop = acme.EnvironmentLoop(env, agent)
-  loop.run(FLAGS.num_episodes)
+  loop.run(10)
 
 
 if __name__ == '__main__':
-  app.run(main)
+  # app.run(main)
+  main()
