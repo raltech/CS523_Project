@@ -17,6 +17,8 @@ Our goal of this project is to reproduce the results (average rewards per episod
 #### Breakout (DM-Acme Version; 15,000 episodes)
 ![GIF image for Breakout](Acme/breakout_12500.gif)
 
+#### Pong (Stable Baselines3 Version; 500,000 timesteps)
+![GIF image for Pong](Stable_baselines3/pong_Stable_baseline3.gif)
 ## Presentation Slide
 [Link to out Presentation Slide](https://docs.google.com/presentation/d/1l92XqlJAMLf_295_ee_JGwacpbwI9a2rp6fkjUJEXXg/edit?usp=sharing)
 **Note**: To access the presentation document, you need to login to Google Account using Boston University Credential.
