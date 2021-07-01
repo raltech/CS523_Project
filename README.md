@@ -31,14 +31,23 @@ To train the DQN agent on Pong environment:
 1. Open ```./Acme/dm_acme_pong.ipynb```
 2. Executes cells from the top.
 
-To train the DQN agent on Pong environment:
+To train the DQN agent on Breakout environment:
 1. Open ```./Acme/dm_acme_breakout.ipynb```
 2. Executes cells from the top.
 
 The checkpoints for the pre-trained Pong agent can be downloaded from here: (https://drive.google.com/file/d/1KeaD8ZdHCbv3-qOr7rK4_8hpXY8anNXR/view?usp=sharing). You need to login with Boston University Credential to access this file.
 
 #### Stable-Baselines3
-Add instructions
+1. ```$ git clone https://github.com/raltech/CS523_project.git```
+2. ```$ cd ./CS523_project```
+
+To train the DQN agent on Pong enviroment: 
+1. Open ```./Stable_baselines/Ping_rl_baselines-zoo.iynb```
+2. Execute cells from the top 
+
+To train the DQN agent on Breakout enviroment: 
+tbh
+
 
 
 ## Results
