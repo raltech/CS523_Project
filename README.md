@@ -42,7 +42,7 @@ Add instructions
 
 
 ## Results
-|                                   |  Pong  | Breakout |
+|                                   |  Pong  | Breakout         |
 | -----------                       |:-----: | :------:         |
 | Random                            | -20.4  |  1.2             |
 | Sarsa                             | -19    |   5.2            |
@@ -51,6 +51,7 @@ Add instructions
 | DQN (Original)                    | 20     | **168**          |
 | **DQN (Ours; DM-Acme)**           | **21** | In Progress (84) |
 | **DQN (Ours; Stable-Baselines3)** | 20.4   | In Progress      |
+   
 Numbers represent the scores obtained in each game by each agent.
 
 ## References
