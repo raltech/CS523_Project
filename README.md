@@ -37,7 +37,10 @@ To train the DQN agent on Breakout environment:
 1. Open ```./Acme/dm_acme_breakout.ipynb```
 2. Executes cells from the top.
 
-The checkpoints for the pre-trained Pong agent can be downloaded from here: (https://drive.google.com/file/d/1KeaD8ZdHCbv3-qOr7rK4_8hpXY8anNXR/view?usp=sharing). You need to login with Boston University Credential to access this file.
+Checkpoints for the trained agents:
+1. The checkpoints for the trained Pong agent (10,000 episodes) can be downloaded from here: (https://drive.google.com/file/d/1KeaD8ZdHCbv3-qOr7rK4_8hpXY8anNXR/view?usp=sharing). 
+2. The checkpoints for the trained Breakout agent (55,000 episodes) can be downloaded from here: (https://drive.google.com/file/d/1z25WiW0TUCtjTLu35C-hKdJNAiXxSzqS/view?usp=sharing).
+*You need to login with Boston University Credential to access these files.*
 
 #### Stable-Baselines3
 1. ```$ git clone https://github.com/raltech/CS523_project.git```
@@ -62,10 +65,13 @@ To train the DQN agent on Breakout enviroment:
 | Contingency                       | -17    | 6                |
 | Human                             | -3     | 31               |  
 | DQN (Original)                    | 20     | **168**          |
-| **DQN (Ours; DM-Acme)**           | **21** | In Progress (84) |
+| **DQN (Ours; DM-Acme)**           | **21** | In Progress (98) |
 | **DQN (Ours; Stable-Baselines3)** | 20.4   | In Progress      |
    
-Numbers represent the scores obtained in each game by each agent.
+- Numbers represent the scores obtained in each game by each agent.
+- Our models (both DM-Acme and Stable-Baselines3) surpassesd the original DQN result reported in the paper. 
+- Breakout takes a significantly more time to train than Pong. Although we have not achived the original score (168), we see a steady increase in our agents' performance. With more training time, we are sure that we can get a similar or better result on Breakout as well.
+
 
 ## References
 **Playing Atari with Deep Reinforcement Learning (https://arxiv.org/abs/1312.5602)**
