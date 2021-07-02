@@ -68,7 +68,7 @@ To train the DQN agent on Breakout enviroment:
 | Contingency                       | -17    | 6                |
 | Human                             | -3     | 31               |  
 | DQN (Original)                    | 20     | **168**          |
-| **DQN (Ours; DM-Acme)**           | **21** | In Progress (101) |
+| **DQN (Ours; DM-Acme)**           | **21** | In Progress (102) |
 | **DQN (Ours; Stable-Baselines3)** | 20.4   | In Progress (0)  |
    
 - Numbers represent the scores obtained in each game by each agent.
