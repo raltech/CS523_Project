@@ -17,6 +17,8 @@ Our goal of this project is to reproduce the results (average rewards per episod
 #### Breakout (DM-Acme Version; 15,000 episodes)
 ![GIF image for Breakout](Acme/breakout_12500.gif)
 
+#### Pong (Stable Baselines3 Version; 500,000 timesteps)
+![GIF image for Pong](Stable_baselines3/pong_Stable_baseline3.gif)
 ## Presentation Slide
 [Link to out Presentation Slide](https://docs.google.com/presentation/d/1l92XqlJAMLf_295_ee_JGwacpbwI9a2rp6fkjUJEXXg/edit?usp=sharing)
 **Note**: To access the presentation document, you need to login to Google Account using Boston University Credential.
@@ -31,7 +33,7 @@ To train the DQN agent on Pong environment:
 1. Open ```./Acme/dm_acme_pong.ipynb```
 2. Executes cells from the top.
 
-To train the DQN agent on Pong environment:
+To train the DQN agent on Breakout environment:
 1. Open ```./Acme/dm_acme_breakout.ipynb```
 2. Executes cells from the top.
 
@@ -41,7 +43,18 @@ Checkpoints for the trained agents:
 *You need to login with Boston University Credential to access these files.*
 
 #### Stable-Baselines3
-Add instructions
+1. ```$ git clone https://github.com/raltech/CS523_project.git```
+2. ```$ cd ./CS523_project```
+
+To train the DQN agent on Pong enviroment: 
+1. Open ```./Stable_baselines/Pong_rl_baselines-zoo.iynb```
+2. Execute cells from the top 
+
+The file of the pretrained model for pong is avaliable in the same branch as the code. 
+To train the DQN agent on Breakout enviroment: 
+1. Open ```./Stable_baselines/Breakout_rl_baselines-zoo.iynb```
+2. Execute cells from the top
+
 
 
 ## Results
