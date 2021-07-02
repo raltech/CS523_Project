@@ -47,13 +47,13 @@ Checkpoints for the trained agents:
 2. ```$ cd ./CS523_project```
 
 To train the DQN agent on Pong enviroment: 
-1. Open ```./Stable_baselines/Pong_rl_baselines-zoo.iynb```
-2. Execute cells from the top 
+1. Open ```./Stable_baselines/Pong_rl_baselines-zoo.ipynb```
+2. Execute cells from the top.
 
 The file of the pretrained model for pong is avaliable in the same branch as the code. 
 To train the DQN agent on Breakout enviroment: 
-1. Open ```./Stable_baselines/Breakout_rl_baselines-zoo.iynb```
-2. Execute cells from the top
+1. Open ```./Stable_baselines/Breakout_rl_baselines-zoo.ipynb```
+2. Execute cells from the top.
 
 
 
