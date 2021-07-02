@@ -55,7 +55,10 @@ Add instructions
 | **DQN (Ours; DM-Acme)**           | **21** | In Progress (98) |
 | **DQN (Ours; Stable-Baselines3)** | 20.4   | In Progress      |
    
-Numbers represent the scores obtained in each game by each agent.
+- Numbers represent the scores obtained in each game by each agent.
+- Our models (both DM-Acme and Stable-Baselines3) surpassesd the original DQN result reported in the paper. 
+- Breakout takes a significantly more time to train than Pong. Although we have not achived the original score (168), we see a steady increase in our agents' performance. With more training time, we are sure that we can get a similar or better result on Breakout as well.
+
 
 ## References
 **Playing Atari with Deep Reinforcement Learning (https://arxiv.org/abs/1312.5602)**
