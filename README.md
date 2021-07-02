@@ -35,7 +35,10 @@ To train the DQN agent on Pong environment:
 1. Open ```./Acme/dm_acme_breakout.ipynb```
 2. Executes cells from the top.
 
-The checkpoints for the pre-trained Pong agent can be downloaded from here: (https://drive.google.com/file/d/1KeaD8ZdHCbv3-qOr7rK4_8hpXY8anNXR/view?usp=sharing). You need to login with Boston University Credential to access this file.
+Checkpoints for the trained agents:
+1. The checkpoints for the trained Pong agent (10,000 episodes) can be downloaded from here: (https://drive.google.com/file/d/1KeaD8ZdHCbv3-qOr7rK4_8hpXY8anNXR/view?usp=sharing). 
+2. The checkpoints for the trained Breakout agent (55,000 episodes) can be downloaded from here: (https://drive.google.com/file/d/1z25WiW0TUCtjTLu35C-hKdJNAiXxSzqS/view?usp=sharing).
+*You need to login with Boston University Credential to access these files.*
 
 #### Stable-Baselines3
 Add instructions
