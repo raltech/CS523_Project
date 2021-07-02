@@ -66,7 +66,7 @@ To train the DQN agent on Breakout enviroment:
 | Human                             | -3     | 31               |  
 | DQN (Original)                    | 20     | **168**          |
 | **DQN (Ours; DM-Acme)**           | **21** | In Progress (98) |
-| **DQN (Ours; Stable-Baselines3)** |**20.4**| In Progress      |
+| **DQN (Ours; Stable-Baselines3)** | 20.4   | 0                |
    
 - Numbers represent the scores obtained in each game by each agent.
 - The results for the first five rows (Random, Sarsa, Contingency, Human, and DQN (Original)) are obtained from the original paper (Playing Atari with Deep Reinforcement Learning).
