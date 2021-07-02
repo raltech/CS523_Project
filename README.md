@@ -47,12 +47,13 @@ Checkpoints for the trained agents:
 2. ```$ cd ./CS523_project```
 
 To train the DQN agent on Pong enviroment: 
-1. Open ```./Stable_baselines/Pong_rl_baselines-zoo.ipynb```
+1. Open ```./Stable_baselines/Pong_rl_baselines_zoo.ipynb```
 2. Execute cells from the top.
+Note: To run the trained model, the program calls for model in seperate folder.
 
 The file of the pretrained model for pong is avaliable in the same branch as the code. 
 To train the DQN agent on Breakout enviroment: 
-1. Open ```./Stable_baselines/Breakout_rl_baselines-zoo.ipynb```
+1. Open ```./Stable_baselines/Breakout_rl_baselines_zoo.ipynb```
 2. Execute cells from the top.
 
 
@@ -66,7 +67,7 @@ To train the DQN agent on Breakout enviroment:
 | Human                             | -3     | 31               |  
 | DQN (Original)                    | 20     | **168**          |
 | **DQN (Ours; DM-Acme)**           | **21** | In Progress (98) |
-| **DQN (Ours; Stable-Baselines3)** | 20.4   | 0                |
+| **DQN (Ours; Stable-Baselines3)** | 20.4   | In Progress (0)  |
    
 - Numbers represent the scores obtained in each game by each agent.
 - The results for the first five rows (Random, Sarsa, Contingency, Human, and DQN (Original)) are obtained from the original paper (Playing Atari with Deep Reinforcement Learning).
