@@ -7,7 +7,7 @@
 2. Ngozi Omatu (nomatu@bu.edu) 
 
 ## Overview
-Most of the classical RL algorithms heavily rely on the hand-crafted features and linear value/policy functions. In other words, the quality of the feature representation have a huge impacts on the performance of such RL algorithms. Deep Reinforcement Learning allows for agent to make decisions(Trial and Error) without manual engineering on the  state  feature information. Therefore, Deep RL can surpass human performance with end-to-end training, and very ideal for dynamic environments.
+Most of the classical RL algorithms heavily rely on the hand-crafted features and linear value/policy functions. In other words, the quality of the feature representation have a huge impacts on the performance of such RL algorithms. Deep Reinforcement Learning allows for agent to make decisions (Trial and Error) without manual engineering on the  state  feature information. Therefore, Deep RL can surpass human performance with end-to-end training, and very ideal for dynamic environments.
 
 Our goal of this project is to reproduce the results (average rewards per episodes) of the Deep Q-learning model on Atari games by Deepmind using two deep reinforcement learning libraries: (1) DM-Acme and (2) Stable-Baselines3. We focused on two specific Atari games: Pong and Breakout.
 
@@ -66,7 +66,7 @@ To train the DQN agent on Breakout enviroment:
 | Human                             | -3     | 31               |  
 | DQN (Original)                    | 20     | **168**          |
 | **DQN (Ours; DM-Acme)**           | **21** | In Progress (98) |
-| **DQN (Ours; Stable-Baselines3)** | 20.4   | In Progress      |
+| **DQN (Ours; Stable-Baselines3)** |**20.4**| In Progress      |
    
 - Numbers represent the scores obtained in each game by each agent.
 - Our models (both DM-Acme and Stable-Baselines3) surpassesd the original DQN result reported in the paper. 
