@@ -66,7 +66,7 @@ To train the DQN agent on Breakout enviroment:
 | Human                             | -3     | 31               |  
 | DQN (Original)                    | 20     | **168**          |
 | **DQN (Ours; DM-Acme)**           | **21** | In Progress (98) |
-| **DQN (Ours; Stable-Baselines3)** | 20.4   | In Progress      |
+| **DQN (Ours; Stable-Baselines3)** | 20.4   | 0                |
    
 - Numbers represent the scores obtained in each game by each agent.
 - Our models (both DM-Acme and Stable-Baselines3) surpassesd the original DQN result reported in the paper. 
