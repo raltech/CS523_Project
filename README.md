@@ -51,7 +51,7 @@ Checkpoints for the trained agents:
 To train the DQN agent on Pong enviroment: 
 1. Open ```./Stable_baselines/Pong_rl_baselines_zoo.ipynb```
 2. Execute cells from the top.
-Note: To run the trained model, the program calls for model in seperate folder.
+Note: To run the trained model, the zip file for PongNoFramework should be added to the logs/dnq folder. This file is created after copying the gitfor Stable baseline3 zoo.
 
 The file of the pretrained model for pong is avaliable in the same branch as the code. 
 To train the DQN agent on Breakout enviroment: 
